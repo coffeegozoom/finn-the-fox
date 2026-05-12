@@ -227,10 +227,11 @@ body {
 
 .paw-button {
   font-size: 28px;
-  opacity: 0.2;
+  opacity: 0.8;
   cursor: pointer;
   margin-top: 20px;
   user-select: none;
+  color:#e8f5e9
 }
 
 .paw-button:hover {
@@ -307,4 +308,35 @@ body {
 
 .speak-button:active {
   background: #c8e6c9;
+}
+.parent-button {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-family: inherit;
+  color: rgba(255,255,255,0.5);
+  cursor: pointer;
+  margin-top: 8px;
+}
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.progress-bar-fill {
+  height: 10px;
+  background: #ffd700;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 8px;
 }
